@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="AVTfpb9fjG4AJo85h9Fy">
-    <mxGraphModel dx="3192" dy="2577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3bSdxVF-lGMKxECi2hHE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;verticalAlign=top;fontSize=14;" value="阶段三: 几何先验引导边界精修" vertex="1">
-          <mxGeometry height="440" width="290" y="640" as="geometry" />
+          <mxGeometry height="450" width="290" y="630" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="阶段二: 语义属性级联判定" vertex="1">
-          <mxGeometry height="446" width="736" x="374" y="630" as="geometry" />
+          <mxGeometry height="446" width="746" x="374" y="630" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="特征与属性融合" vertex="1">
           <mxGeometry height="89" width="625" x="433" y="736" as="geometry" />
@@ -17,13 +17,13 @@
           <mxGeometry height="354" width="642" x="243" y="218" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;align=center;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=14;labelBackgroundColor=none;" value="多源异构数据输入层" vertex="1">
-          <mxGeometry height="168" width="980" x="20" as="geometry" />
+          <mxGeometry height="168" width="1120" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-6" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="Sentinel-2 T1&#xa;(2024)" vertex="1">
-          <mxGeometry height="98" width="110" x="336" y="45" as="geometry" />
+          <mxGeometry height="98" width="110" x="404" y="45" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-7" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="Sentinel-2 T2&#xa;(2025)" vertex="1">
-          <mxGeometry height="98" width="110" x="558" y="45" as="geometry" />
+          <mxGeometry height="98" width="110" x="626" y="45" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-57" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-1">
           <mxGeometry relative="1" as="geometry">
@@ -34,10 +34,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-8" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="历史高分矢量&#xa;(2m 先验)" vertex="1">
-          <mxGeometry height="98" width="111" x="132" y="45" as="geometry" />
+          <mxGeometry height="98" width="111" x="200" y="45" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-9" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="稀疏标注样本" vertex="1">
-          <mxGeometry height="98" width="110" x="780" y="50" as="geometry" />
+          <mxGeometry height="98" width="110" x="848" y="50" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-10" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;spacingTop=0;spacing=2;fontFamily=Comic Sans MS;fontSize=14;" value="GEE 云端预处理" vertex="1">
           <mxGeometry height="39" width="144" x="319" y="243" as="geometry" />
@@ -48,8 +48,10 @@
         <mxCell id="3bSdxVF-lGMKxECi2hHE-12" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="孪生分割网络&#xa;Siamese U-Net" vertex="1">
           <mxGeometry height="63" width="165" x="500" y="356" as="geometry" />
         </mxCell>
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-58" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3bSdxVF-lGMKxECi2hHE-58" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;strokeColor=default;curved=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-13" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="粗粒度变化概率图&#xa;10m 栅格" vertex="1">
           <mxGeometry height="78" width="158" x="504" y="469" as="geometry" />
