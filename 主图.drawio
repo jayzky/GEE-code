@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="阶段三: 几何先验引导边界精修" vertex="1">
-          <mxGeometry height="379" width="290" y="689" as="geometry" />
+        <mxCell id="3bSdxVF-lGMKxECi2hHE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;verticalAlign=top;" value="阶段三: 几何先验引导边界精修" vertex="1">
+          <mxGeometry height="428" width="290" y="640" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="阶段二: 语义属性级联判定" vertex="1">
           <mxGeometry height="446" width="667" x="374" y="630" as="geometry" />
@@ -66,6 +66,9 @@
         <mxCell id="3bSdxVF-lGMKxECi2hHE-15" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="历史属性查询" vertex="1">
           <mxGeometry height="39" width="127" x="556" y="761" as="geometry" />
         </mxCell>
+        <mxCell id="020RvL_pKC8cMuouFwPj-1" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3bSdxVF-lGMKxECi2hHE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-16" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="现势特征提取" vertex="1">
           <mxGeometry height="39" width="127" x="896" y="761" as="geometry" />
         </mxCell>
@@ -79,7 +82,7 @@
           <mxGeometry height="54" width="140" x="879" y="989" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-19" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="几何对象引导" vertex="1">
-          <mxGeometry height="39" width="127" x="116" y="722" as="geometry" />
+          <mxGeometry height="39" width="127" x="67.5" y="722" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-20" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;" value="基于对象的&#xa;投票精修算法" vertex="1">
           <mxGeometry height="63" width="156" x="53" y="867" as="geometry" />
@@ -142,7 +145,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="223" y="168" />
-              <mxPoint x="223" y="572" />
+              <mxPoint x="200" y="600" />
+              <mxPoint x="330" y="620" />
               <mxPoint x="522" y="597" />
               <mxPoint x="522" y="736" />
             </Array>
@@ -156,18 +160,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-33" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-15" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.28;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;" target="3bSdxVF-lGMKxECi2hHE-17" value="">
+        <mxCell id="3bSdxVF-lGMKxECi2hHE-33" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-15" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;entryDx=0;entryDy=0;" target="3bSdxVF-lGMKxECi2hHE-17" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="861" y="825" />
               <mxPoint x="861" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-34" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-16" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.53;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;" target="3bSdxVF-lGMKxECi2hHE-17" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="960" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
