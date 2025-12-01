@@ -8,7 +8,7 @@
           <mxGeometry height="428" width="290" y="640" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="阶段二: 语义属性级联判定" vertex="1">
-          <mxGeometry height="446" width="667" x="374" y="630" as="geometry" />
+          <mxGeometry height="446" width="736" x="374" y="630" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="特征与属性融合" vertex="1">
           <mxGeometry height="89" width="625" x="433" y="736" as="geometry" />
