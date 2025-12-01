@@ -17,7 +17,7 @@
           <mxGeometry height="354" width="642" x="243" y="218" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;align=center;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=14;labelBackgroundColor=none;" value="多源异构数据输入层" vertex="1">
-          <mxGeometry height="168" width="1021" x="20" as="geometry" />
+          <mxGeometry height="168" width="980" x="20" as="geometry" />
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-6" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="Sentinel-2 T1&#xa;(2024)" vertex="1">
           <mxGeometry height="98" width="110" x="336" y="45" as="geometry" />
@@ -62,6 +62,13 @@
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-14" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="ROI 阈值掩膜" vertex="1">
           <mxGeometry height="39" width="124" x="691" y="647" as="geometry" />
+        </mxCell>
+        <mxCell id="020RvL_pKC8cMuouFwPj-2" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3bSdxVF-lGMKxECi2hHE-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="894" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-15" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="历史属性查询" vertex="1">
           <mxGeometry height="39" width="127" x="485" y="761" as="geometry" />
@@ -159,14 +166,6 @@
               <mxPoint x="920" y="190" />
               <mxPoint x="1010" y="200" />
               <mxPoint x="970" y="736" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-33" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-15" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;entryDx=0;entryDy=0;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-17" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="861" y="825" />
-              <mxPoint x="861" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
