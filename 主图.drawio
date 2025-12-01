@@ -90,6 +90,9 @@
         <mxCell id="3bSdxVF-lGMKxECi2hHE-18" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="二级变化类型ID" vertex="1">
           <mxGeometry height="54" width="140" x="879" y="989" as="geometry" />
         </mxCell>
+        <mxCell id="020RvL_pKC8cMuouFwPj-3" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3bSdxVF-lGMKxECi2hHE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-19" parent="1" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=14;" value="几何对象引导" vertex="1">
           <mxGeometry height="39" width="127" x="67.5" y="722" as="geometry" />
         </mxCell>
@@ -174,13 +177,6 @@
         <mxCell id="3bSdxVF-lGMKxECi2hHE-35" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-18" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3bSdxVF-lGMKxECi2hHE-39" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-19" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.64;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-20" value="拓扑约束">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="830" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3bSdxVF-lGMKxECi2hHE-40" edge="1" parent="1" source="3bSdxVF-lGMKxECi2hHE-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;fontFamily=Comic Sans MS;fontSize=14;" target="3bSdxVF-lGMKxECi2hHE-21" value="">
