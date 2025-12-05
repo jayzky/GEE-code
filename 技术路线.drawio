@@ -22,16 +22,16 @@
         <mxCell id="Q55L9hyzXRclrzHr0kJB-292" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="HVP-GLNet核心模型构建与训练" vertex="1">
           <mxGeometry height="40" width="210" x="-60" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-293" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="&#xa;多源数据工程与采样策略优化&#xa;&#xa;" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-293" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="精度评价与模型泛化性验证" vertex="1">
           <mxGeometry height="40" width="210" x="-60" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-294" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="&#xa;多源数据工程与采样策略优化&#xa;&#xa;" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-294" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="细粒度特征增强与边界级联精修" vertex="1">
           <mxGeometry height="40" width="210" x="-60" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sentinel-1 SAR&lt;div&gt;Sentinel-2&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="120" y="-80" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2米历史矢量数据" vertex="1">
           <mxGeometry height="60" width="120" x="120" y="10" as="geometry" />
         </mxCell>
       </root>
