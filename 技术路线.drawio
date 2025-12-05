@@ -1,0 +1,234 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="第 1 页" id="M5bqlNTgpjHcWo3jN0EX">
+    <mxGraphModel dx="1892" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-45" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;b&gt;阶段四：模型优化与精度评价&lt;/b&gt;" vertex="1">
+          <mxGeometry height="412" width="332" x="710" y="1846" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-95" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GL_sjfIpi0rHc8PMKmZv-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;b&gt;阶段三：细粒度特征增强与边界级联精修&lt;/b&gt;" vertex="1">
+          <mxGeometry height="408" width="524" x="40" y="1848" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-47" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;b&gt;阶段二：HVP-GLNet 全局-局部协同网络&lt;/b&gt;" vertex="1">
+          <mxGeometry height="612" width="810" x="230" y="1186" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-48" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="局部分支 Local Branch" vertex="1">
+          <mxGeometry height="433" width="401" x="280" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="全局分支 Global Branch" vertex="1">
+          <mxGeometry height="257" width="290" x="701" y="1211" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-50" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;b&gt;阶段一：物候一致性数据工程与采样策略&lt;/b&gt;" vertex="1">
+          <mxGeometry height="512" width="1020" x="22" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-51" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Sentinel-2 光学影像&#xa;【2024/2025】" vertex="1">
+          <mxGeometry height="78" width="201" x="417" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-52" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Sentinel-1 SAR影像&#xa;【VV/VH极化】" vertex="1">
+          <mxGeometry height="78" width="196" x="795" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-53" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="历史2m高分矢量&#xa;【几何先验/真值】" vertex="1">
+          <mxGeometry height="78" width="196" x="156" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-54" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="GEE黄金生长季合成&#xa;【5-9月中值合成/去云】" vertex="1">
+          <mxGeometry height="78" width="235" x="651" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-55" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="多维特征堆叠&#xa;【光谱+指数+纹理 14波段】" vertex="1">
+          <mxGeometry height="78" width="258" x="639" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-56" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="像素分量软标签构建&#xa;【2m矢量→10m概率分布】" vertex="1">
+          <mxGeometry height="78" width="256" x="334" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-57" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="空间分层随机采样&#xa;【消除空间自相关】" vertex="1">
+          <mxGeometry height="78" width="204" x="513" y="1009" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-58" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="10m 全局影像输入" vertex="1">
+          <mxGeometry height="54" width="191" x="750" y="1236" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-59" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="ResNet 全局编码器&#xa;【提取宏观语义特征】" vertex="1">
+          <mxGeometry height="78" width="220" x="736" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-60" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="10m 局部切片输入" vertex="1">
+          <mxGeometry height="54" width="191" x="433" y="1377" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-61" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="SRM 超分辨率模块&#xa;【GAN特征对齐 10m→2m】" vertex="1">
+          <mxGeometry height="78" width="259" x="317" y="1542" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-62" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="ResNet 局部编码器&#xa;【提取细节纹理特征】" vertex="1">
+          <mxGeometry height="78" width="220" x="352" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-63" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="双向深度特征共享&#xa;【Deep Feature Sharing】" vertex="1">
+          <mxGeometry height="78" width="246" x="723" y="1542" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-64" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PSA 极化自注意力模块&#xa;【增强细小图斑响应】" vertex="1">
+          <mxGeometry height="78" width="220" x="289" y="1873" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-65" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="BCJHDC 混合空洞卷积&#xa;【扩大感受野/消除网格伪影】" vertex="1">
+          <mxGeometry height="102" width="260" x="269" y="2001" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-66" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="矢量引导 PointRend&#xa;【亚像素边界渲染】" vertex="1">
+          <mxGeometry height="78" width="204" x="170" y="2153" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-67" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="混合损失函数&#xa;【Soft-CE + Dice Loss】" vertex="1">
+          <mxGeometry height="78" width="228" x="760" y="1871" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-68" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="土地利用二级分类&#xa;【变化检测图斑输出】" vertex="1">
+          <mxGeometry height="78" width="220" x="764" y="1999" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-69" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="精度评价指标&#xa;【BIoU / F1-Score / mIoU】" vertex="1">
+          <mxGeometry height="78" width="259" x="745" y="2127" as="geometry" />
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-70" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-51" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.12;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-54" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-71" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-52" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.82;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-54" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="893" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-72" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-54" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-55" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-73" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-55" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.96;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="769" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-74" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-53" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-56" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-75" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-56" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.04;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-76" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-58" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-59" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-77" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-60" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.66;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-61" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-78" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-61" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.46;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-62" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-79" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-59" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=1;entryX=0.63;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-63" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908" y="1468" />
+              <mxPoint x="908" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-80" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-62" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0;entryX=0;entryY=0.77;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-63" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-81" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-63" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=0;entryX=0.35;entryY=1;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-59" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="1505" />
+              <mxPoint x="793" y="1468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-82" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-63" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.9;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-62" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="608" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-83" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-64" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-65" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-84" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-65" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.88;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-66" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="399" y="2128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-85" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-67" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-68" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-86" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-68" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-69" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-87" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-57" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-58" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="1112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-88" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-57" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-60" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="1112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-89" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-53" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.37;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-61" value="几何先验引导">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="856" />
+              <mxPoint x="299" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-90" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-62" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-64" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL_sjfIpi0rHc8PMKmZv-91" edge="1" parent="1" source="GL_sjfIpi0rHc8PMKmZv-53" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.07;entryY=0;rounded=0;" target="GL_sjfIpi0rHc8PMKmZv-66" value="拓扑边界索引">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="856" />
+              <mxPoint x="109" y="2128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
