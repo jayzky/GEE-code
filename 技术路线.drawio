@@ -1,19 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="第 1 页" id="M5bqlNTgpjHcWo3jN0EX">
-    <mxGraphModel dx="1823" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1312" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-297" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-297" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="200" width="670" x="80" y="-100" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-298" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-298" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="200" width="670" x="80" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-299" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-299" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="200" width="670" x="80" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-300" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-300" parent="1" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="200" width="670" x="80" y="750" as="geometry" />
         </mxCell>
         <mxCell id="Q55L9hyzXRclrzHr0kJB-288" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="&#xa;多源数据工程与采样策略优化&#xa;&#xa;" vertex="1">
@@ -28,11 +28,35 @@
         <mxCell id="Q55L9hyzXRclrzHr0kJB-294" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;flipH=1;flipV=0;" value="细粒度特征增强与边界级联精修" vertex="1">
           <mxGeometry height="70" width="210" x="-75" y="525" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sentinel-1 SAR&lt;div&gt;Sentinel-2&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="-80" as="geometry" />
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-311" edge="1" parent="1" source="Q55L9hyzXRclrzHr0kJB-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q55L9hyzXRclrzHr0kJB-310">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q55L9hyzXRclrzHr0kJB-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2米历史矢量数据" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="10" as="geometry" />
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;" value="&lt;div&gt;Sentinel-2&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="120" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;" value="2米历史矢量数据" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-305" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;" value="Sentinel-1 SAR" vertex="1">
+          <mxGeometry height="30" width="120" x="120" y="-29" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-310" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;" value="&lt;div&gt;纯净影像&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="354" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-312" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="去云处理" vertex="1">
+          <mxGeometry height="20" width="80" x="260" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-313" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;" value="&lt;div&gt;物候一致基准影像&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="590" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-314" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="5-9月中值合成" vertex="1">
+          <mxGeometry height="20" width="80" x="490" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q55L9hyzXRclrzHr0kJB-315" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q55L9hyzXRclrzHr0kJB-313">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="-65.26" as="sourcePoint" />
+            <mxPoint x="588" y="-65.26" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
